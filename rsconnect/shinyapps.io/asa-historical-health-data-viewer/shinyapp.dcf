@@ -1,0 +1,13 @@
+name: shinyapp
+title:
+username:
+account: asa-historical-health-data-viewer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4440267
+bundleId: 5103021
+url: https://asa-historical-health-data-viewer.shinyapps.io/shinyapp/
+when: 1633365574.40997
+lastSyncTime: 1633365574.40997
+asMultiple: FALSE
+asStatic: FALSE

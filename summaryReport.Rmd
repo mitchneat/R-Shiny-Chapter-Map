@@ -1,0 +1,28 @@
+---
+title: "Summary Report"
+output: html_document
+params:
+  chapSum: NA
+  eduSum: NA
+  officerSum: NA 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Member Count
+```{r results="asis", echo=FALSE}
+summary(params$chapSum)
+```
+
+## Officer Activities
+```{r results="asis", echo=FALSE}
+summary(params$officerSum)
+```
+
+## Educational Activites
+```{r results="asis", echo=FALSE}
+summary(params$eduSum)
+```
